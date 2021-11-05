@@ -1,12 +1,12 @@
 ﻿//  1. По двум введённым числам проверять является ли первое квадратом второго
 
-int a = 4;
-int b = 9;
-if (a * a == b)
+int a = 9;
+int b = 3;
+if (b * b == a)
 {
-    Console.WriteLine(a + " is the root of the number " + b);
+    Console.WriteLine(b + " is the root of the number " + a);
 }
 else
 {
-    Console.WriteLine(a + " isn't the root of the number " + b);
+    Console.WriteLine(b + " isn't the root of the number " + a);
 }

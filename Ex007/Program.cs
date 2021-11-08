@@ -1,10 +1,18 @@
 ﻿// 7. Показать числа от -N до N
 
-int n = 7;
-int m = 12;
+int n = -7;
 int index = n;
-while (index < m)
+while (index < -n)
 {
-    Console.WriteLine(index);
+    Console.Write(index + " ");
     index++;
 }
+
+// int [] array = new int [10];
+// void CreateArray(int [] array)
+// {
+//     for(int i = 0; i < 10; i++)
+//     {
+//         array[]
+//     }
+// }

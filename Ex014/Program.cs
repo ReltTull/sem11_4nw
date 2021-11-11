@@ -31,23 +31,24 @@
 // Numbers(N);
 
 // 14. Найти третью цифру числа или сообщить, что её нет
-int a = new Random().Next(1,10);
+int a = new Random().Next(1, 10);
 System.Console.WriteLine(a);
 void Number(int a)
 {
-    if (a < 100)
+    // if (a < 100) 
+    if (a / 100 == 0)
     {
-        Console.WriteLine("third number isn't exist");
+        Console.WriteLine("third number doesn't exist");
     }
     if (a > 100 & a < 1000)
     {
-    int b = a / 100;
-    System.Console.WriteLine(b);
+        int b = a / 100;
+        System.Console.WriteLine(b);
     }
     if (a > 1000)
     {
         int b = a / 100;
-        int c = b % 10; 
+        int c = b % 10;
         System.Console.WriteLine(c);
     }
 }

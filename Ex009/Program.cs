@@ -1,5 +1,9 @@
 ﻿// Показать последнюю цифру трёхзначного числа
-int a = 234;
-int tens = a % 100;
-int units = tens % 10;
-Console.WriteLine(units);
+int Findunits (int r1)
+{
+int a = r1;
+int units = a % 10;
+return units;
+}
+System.Console.WriteLine(Findunits(421));
+

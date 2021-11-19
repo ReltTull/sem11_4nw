@@ -3,7 +3,7 @@
 double[] NonIntArr = new double[7];
 for (int i = 0; i < 7; i++)
 {
-    NonIntArr[i] = new Random().NextDouble();
+    NonIntArr[i] = new Random().NextDouble() * 10;
     System.Console.Write(NonIntArr[i] + " ");
 }
 double min = NonIntArr[0];
